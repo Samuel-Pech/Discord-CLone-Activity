@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "876643749002",
+    "project_id": "discord-72fca",
+    "storage_bucket": "discord-72fca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876643749002:android:246bc92367dbdea478b173",
+        "android_client_info": {
+          "package_name": "com.example.discord"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi8_DaJKosyETPQNEj9uAXAJJbzPJ-TTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
