@@ -1,1 +1,1 @@
-# Discord-CLone-Activity
+# Discord-Clone-Activity
