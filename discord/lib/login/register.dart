@@ -174,20 +174,32 @@ class _RegisterScreenState extends State<RegisterScreen> {
               child: ElevatedButton(
                 onPressed: _signInWithGoogle,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color.fromARGB(255, 234, 233, 233),
+                  backgroundColor: Colors.white, // Fondo blanco
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8),
+                    side:
+                        BorderSide(color: Colors.grey.shade300), // Borde sutil
                   ),
+                  padding:
+                      EdgeInsets.symmetric(vertical: 12), // Ajuste de padding
+                  elevation: 2, // Sombra del botón
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
                       'assets/images/google_logo.png', // Logo de Google
-                      height: 20,
+                      height: 24, // Tamaño ajustado
                     ),
-                    SizedBox(width: 10),
-                    Text('Registrarse con Google'),
+                    SizedBox(width: 12), // Espacio entre el logo y el texto
+                    Text(
+                      'Registrarse con Google',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black87, // Texto oscuro para contraste
+                      ),
+                    ),
                   ],
                 ),
               ),

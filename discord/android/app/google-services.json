@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "876643749002",
-    "project_id": "discord-72fca",
-    "storage_bucket": "discord-72fca.appspot.com"
+    "project_number": "656793682838",
+    "project_id": "discordclone-a5c0c",
+    "storage_bucket": "discordclone-a5c0c.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:876643749002:android:246bc92367dbdea478b173",
+        "mobilesdk_app_id": "1:656793682838:android:8568bf0d5745ec79e553b7",
         "android_client_info": {
           "package_name": "com.example.discord"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDi8_DaJKosyETPQNEj9uAXAJJbzPJ-TTk"
+          "current_key": "AIzaSyCeCBZcvOaB2aeeh-avYtHMiRKH0GV-LE4"
         }
       ],
       "services": {
